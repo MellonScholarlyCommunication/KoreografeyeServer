@@ -4,9 +4,8 @@
       "https://purl.org/coar/notify"
     ],
     "actor": {
-      "id": "https://overlay-journal.com",
-      "inbox": "http://localhost:8001/inbox/",
-      "name": "Overlay Journal",
+      "id": "http://localhost:8002",
+      "inbox": "http://localhost:8002/inbox/",
       "type": "Service"
     },
     "id": "urn:uuid:0370c0fb-bb78-4a9b-87f5-bed307a509dd",
@@ -23,18 +22,10 @@
         ]
       }
     },
-    "origin": {
-      "id": "https://overlay-journal.com/system",
-      "inbox": "https://overlay-journal.com/inbox/",
-      "type": "Service"
-    },
     "target": {
-      "id": "https://research-organisation.org/repository",
-      "inbox": "https://research-organisation.org/inbox/",
+      "id": "http://localhost:8001",
+      "inbox": "http://localhost:8001/inbox/",
       "type": "Service"
     },
-    "type": [
-      "Offer",
-      "coar-notify:IngestAction"
-    ]
+    "type": "Offer"
   }

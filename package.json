@@ -14,7 +14,10 @@
     "log4js": "^6.9.1"
   },
   "scripts": {
-    "server1": "npx forever start ./bin/server.js --port 8000",
+    "server1": "npx forever start ./bin/server.js --port 8001 --inbox ./inbox1",
+    "server2": "npx forever start ./bin/server.js --port 8002 --inbox ./inbox2",
+    "handle1": "npx KoreografeyeServer handle-inbox --inbox ./inbox1",
+    "handle2": "npx KoreografeyeServer handle-inbox --inbox ./inbox2",
     "ps": "npx forever list",
     "stopall": "npx forever stopall"
   }
