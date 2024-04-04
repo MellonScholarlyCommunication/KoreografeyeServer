@@ -1,0 +1,15 @@
+{
+  "name": "KoreografeyeServer",
+  "version": "1.0.0",
+  "description": "A Koreografeye back LDN inbox server",
+  "main": "index.js",
+  "repository": "https://github.com/MellonScholarlyCommunication/koreografeye-ldn-inbox-server",
+  "author": "Patrick Hochstenbach <Patrick.Hochstenbach@UGent.be>",
+  "license": "MIT",
+  "bin": "./bin/server.js",
+  "dependencies": {
+    "koreografeye": "^0.5.0",
+    "ldn-inbox-server": "^1.0.2",
+    "log4js": "^6.9.1"
+  }
+}
