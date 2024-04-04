@@ -22,11 +22,10 @@
                 a as:Accept ;
                 as:inReplyTo ?id ;
                 as:actor     ?target ;
-                as:origin    <https://github.com/eyereasoner/Koreografeye/profile/card#me> ;
                 as:target    ?actor;
                 as:object    [
                     a as:Note ;
-                    as:content "Thank you for the announce" 
+                    as:content "Thank you for the offer" 
                 ]
         ]
     ] .

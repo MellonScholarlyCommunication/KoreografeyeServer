@@ -10,12 +10,12 @@
   "dependencies": {
     "forever": "^4.0.3",
     "koreografeye": "^0.5.0",
-    "ldn-inbox-server": "^1.0.2",
+    "ldn-inbox-server": "^1.0.5",
     "log4js": "^6.9.1"
   },
   "scripts": {
-    "server1": "npx forever start ./bin/server.js --port 8001 --inbox ./inbox1",
-    "server2": "npx forever start ./bin/server.js --port 8002 --inbox ./inbox2",
+    "server1": "npx forever start ./bin/server.js start-server --port 8001 --inbox ./inbox1",
+    "server2": "npx forever start ./bin/server.js start-server --port 8002 --inbox ./inbox2",
     "handle1": "npx KoreografeyeServer handle-inbox --inbox ./inbox1",
     "handle2": "npx KoreografeyeServer handle-inbox --inbox ./inbox2",
     "ps": "npx forever list",

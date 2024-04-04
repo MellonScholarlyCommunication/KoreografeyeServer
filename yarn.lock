@@ -3748,10 +3748,10 @@ lazy@~1.0.11:
   resolved "https://registry.yarnpkg.com/lazy/-/lazy-1.0.11.tgz#daa068206282542c088288e975c297c1ae77b690"
   integrity sha512-Y+CjUfLmIpoUCCRl0ub4smrYtGGr5AOa2AKOaWelGHOGz33X/Y/KizefGqbkwfz44+cnq/+9habclf8vOmu2LA==
 
-ldn-inbox-server@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/ldn-inbox-server/-/ldn-inbox-server-1.0.2.tgz#29ac04c452e1461234150e4fa4063b0a02cd6ac0"
-  integrity sha512-PPSvFPwUeyBVfpRcWd0q/PU5LihyhIUqTHlykoeTlUEPaITqkIhUX3wACTiqLyUqhNE00cLq/NAifdQHF1JZEw==
+ldn-inbox-server@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/ldn-inbox-server/-/ldn-inbox-server-1.0.5.tgz#37976bbdfbef0852bb36e2ed85e117bbdff1885f"
+  integrity sha512-ixUTMbuX0vYal2b0LIIYQWCt9Ay0sAW7vezpQMSpfOdvplwkzEuqqXiIQOck3Vfu0T7BRaL+7Cali/JrJ9p4pg==
   dependencies:
     commander "^12.0.0"
     jsonschema "^1.4.1"

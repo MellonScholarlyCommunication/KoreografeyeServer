@@ -33,7 +33,7 @@
                 }
             }
         ],
-        "required": [ "id" ]
+        "required": [ "type" ]
       } 
     },
     "required": ["id", "type", "actor", "object"]
