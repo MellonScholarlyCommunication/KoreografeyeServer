@@ -7,7 +7,10 @@
 @prefix ldp:  <http://www.w3.org/ns/ldp#> .
 
 {
-  ?id a as:Offer .
+  # pol:mainSubject defines the top level identifier of the notification
+  [ pol:mainSubject ?id ] .
+
+  ?id a as:Announce .
   ?id as:actor ?actor .
   ?actor ldp:inbox ?actor_inbox .
   ?id as:target ?target .
@@ -19,13 +22,13 @@
         fno:executes ex:sendNotification ;
         ex:to ?actor_inbox ;
         ex:notification [
-                a as:Accept ;
+                a as:Announce ;
                 as:inReplyTo ?id ;
                 as:actor     ?target ;
                 as:target    ?actor;
                 as:object    [
                     a as:Note ;
-                    as:content "Thank you for the offer" 
+                    as:content "Hello!" 
                 ]
         ]
     ] .

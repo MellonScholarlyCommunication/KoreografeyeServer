@@ -1,0 +1,22 @@
+{
+    "@context": [
+      "https://www.w3.org/ns/activitystreams",
+      "https://purl.org/coar/notify"
+    ],
+    "id": "urn:uuid:0370c0fb-bb78-4a9b-87f5-bed307a509dd",
+    "type": "Announce",
+    "actor": {
+      "id": "http://localhost:8002",
+      "inbox": "http://localhost:8002/inbox/",
+      "type": "Service"
+    },
+    "object": {
+      "type": "Note",
+      "content": "Hi"
+    },
+    "target": {
+      "id": "http://localhost:8001",
+      "inbox": "http://localhost:8001/inbox/",
+      "type": "Service"
+    }
+  }
