@@ -14,7 +14,7 @@ const JSON_SCHEMA_PATH = './config/notification_schema.json';
 const SLEEP = 10;
 
 program
-  .name('n3dialog')
+  .name('KoreografeyeServer')
   .version('1.0.0')
   .description('A demonstration Event Notifications Inbox server');
 

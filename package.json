@@ -8,8 +8,14 @@
   "license": "MIT",
   "bin": "./bin/server.js",
   "dependencies": {
+    "forever": "^4.0.3",
     "koreografeye": "^0.5.0",
     "ldn-inbox-server": "^1.0.2",
     "log4js": "^6.9.1"
+  },
+  "scripts": {
+    "server1": "npx forever start ./bin/server.js --port 8000",
+    "ps": "npx forever list",
+    "stopall": "npx forever stopall"
   }
 }
